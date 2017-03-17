@@ -32,7 +32,7 @@
       POSTED ON 17 DEC 2013 / DESSERTS
       <img src="img/print-icon.png" alt="">PRINT
       <img src="img/choco-pizza.png">
-      <article class="">
+      <article>
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky->jammy mixture.   Add salt with one or two stirs, set aside and let cool completely.</p>
 
         <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
@@ -43,32 +43,42 @@
       <section id="list">
         <img src="img/list-bg.png">
         <form class="" action="index.html" method="post">
-          <ul class="checkbox" id="left-checkbox">
-            <input type="checkbox"><li>1 1/2 cups milk</li><br>
-            <input type="checkbox"><li>1/2 cup Marscapone</li><br>
-            <input type="checkbox"><li>1/2 tsp pink salt</li><br>
-            <input type="checkbox"><li>1 lb Black Mission Figs</li><br>
-            <input type="checkbox"><li>1/2 cup brown sugar</li><br>
-            <input type="checkbox"><li>2-4 tbsp water</li><br>
-          </ul>
-          <ul class="checkbox" id="right-checkbox">
-            <input type="checkbox"><li>1 1/2 cups milk1 1/2 cups heavy cream</li><br>
-            <input type="checkbox"><li>1/3 granulated sugar</li><br>
-            <input type="checkbox"><li>2 egg yolks</li><br>
-            <input type="checkbox"><li>1 lemon, juiced</li><br>
-            <input type="checkbox"><li>2 tbsp butter</li><br>
-            <input type="checkbox"><li>1 cup honey roasted pecans, roughly chopped</li><br>
-          </ul>
+          <div id="left-checkbox">
+            <ul class="checkbox">
+              <input type="checkbox" class="strikethrough"><li><label>1 1/2 cups milk</label></li><br>
+              <input type="checkbox" class="strikethrough"><li><label>1/2 cup Marscapone</label></li><br>
+              <input type="checkbox" class="strikethrough"><li><label>1/2 tsp pink salt</label></li><br>
+              <input type="checkbox" class="strikethrough"><li><label>1 lb Black Mission Figs</label></li><br>
+              <input type="checkbox" class="strikethrough"><li><label>1/2 cup brown sugar</label></li><br>
+              <input type="checkbox" class="strikethrough"><li><label>2-4 tbsp water</label></li><br>
+            </ul>
+          </div>
+            <div id="right-checkbox">
+              <ul class="checkbox">
+                <input type="checkbox" class="strikethrough"><li><label>1 1/2 cups milk1 1/2 cups heavy cream</label></li><br>
+                <input type="checkbox" class="strikethrough"><li><label>1/3 granulated sugar</label></li><br>
+                <input type="checkbox" class="strikethrough"><li><label>2 egg yolks</label></li><br>
+                <input type="checkbox" class="strikethrough"><li><label>1 lemon, juiced</label></li><br>
+                <input type="checkbox" class="strikethrough"><li><label>2 tbsp butter</label></li><br>
+                <input type="checkbox" class="strikethrough"><li><label>1 cup honey roasted pecans, roughly chopped</label></li><br>
+              </ul>
+            </div>
         </form>
       </section>
-    <img src="img/van-pic.png">
-    <h2>Vanessa Stevenson</h2>
-    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-    <button type="button" name="button">Share Recipe</button>
+      <section id="bio">
+        <img src="img/van-pic.png">
+        <h2>Vanessa Stevenson</h2>
+        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and     that's pretty much who I am.</p>
+        <button type="button" name="button">Share Recipe</button>
+      </section>
     <footer>
-      <hr><img src="img/small-logo.png"><hr>
-      Delicious © 2017 · All Rights Reserved.
-Proudly published with Ghost.
+      <hr id="line-left"><img src="img/small-logo.png"><hr id="line-right">
+      <section>
+        <div class="foot-text">
+          <p>Delicious © 2017·<br>All Rights Reserved.
+            Proudly published with Ghost.</p>
+        </div>
+      </section>
     </footer>
   </main>
     <aside class="right"></aside>
