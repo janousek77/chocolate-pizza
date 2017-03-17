@@ -1,3 +1,9 @@
 body{
   width: ;
 }
+
+li{
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+}
