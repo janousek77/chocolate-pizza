@@ -1,9 +1,21 @@
 body{
-  width: ;
+  margin: 50px 350px;
+}
+
+h2{
+  font-family: 'Yellowtail', cursive;
+}
+
+h1{
+font-family: 'Oswald', sans-serif;
 }
 
 li{
   list-style: none;
   display: inline;
   cursor: pointer;
+}
+
+.checkbox{
+
 }
