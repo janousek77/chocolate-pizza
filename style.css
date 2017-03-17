@@ -1,5 +1,36 @@
 body{
-  margin: 50px 350px;
+
+}
+
+.left {
+  float: left;
+  box-sizing: border-box;
+  width: 20%;
+  height: 1200px;
+}
+
+header{
+  float: left;
+  box-sizing: border-box;
+  width: 60%;
+  height: 200px;
+  text-align: center;
+}
+
+main{
+  float: left;
+  box-sizing: border-box;
+  width: 60%;
+  height: 770px;
+  text-align: center;
+}
+
+footer{
+  float: left;
+  box-sizing: border-box;
+  width: 60%;
+  height: 200px;
+  text-align: center;
 }
 
 h2{
@@ -16,6 +47,14 @@ li{
   cursor: pointer;
 }
 
+
+.right {
+  float: left;
+  box-sizing: border-box;
+  width: 20%;
+  height: 1200px;
+  position: relative;
+}
 .checkbox{
 
 }
